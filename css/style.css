@@ -18,6 +18,7 @@ ul {
   transition: 0.3s;
 }
 .my-button:hover {
+  cursor: pointer;
   box-shadow: 0px 10px 20px 0px rgb(79 83 98 / 50%);
   transform: translate3d(0px, -3px, 0px);
 }
@@ -105,6 +106,7 @@ ul {
 }
 .apple-listen:hover {
   filter: opacity(0.7);
+  cursor: pointer;
 }
 .site-image img,
 .thumbnail,
@@ -176,6 +178,7 @@ ul {
 }
 .thumbnail img:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 .figcaption {
   padding: 22px;
@@ -196,6 +199,10 @@ ul {
   color: black;
   font-size: x-large;
   padding-bottom: 22px;
+}
+.details:hover {
+  cursor: pointer;
+  color: rgb(140, 140, 150);
 }
 .tags {
   padding-bottom: 10px;
