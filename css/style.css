@@ -71,6 +71,16 @@ ul {
 .main {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.main-bg-style {
+  background-color: lavender;
+  transform: skewY(-5deg);
+  height: 100%;
+  position: absolute;
+  z-index: -100;
+  top: 15%;
 }
 
 /* intro styling */
