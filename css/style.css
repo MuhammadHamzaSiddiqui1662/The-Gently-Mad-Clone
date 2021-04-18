@@ -430,8 +430,8 @@ ul {
 }
 @media screen and (min-width: 1250px) {
   .header,
-  .main,
-  .footer {
+  .intro,
+  .episodes {
     max-width: 1250px;
     margin: 0px auto;
   }
